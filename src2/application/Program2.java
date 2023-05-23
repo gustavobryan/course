@@ -1,6 +1,5 @@
 package application;
 
-import java.security.DrbgParameters.NextBytes;
 import java.util.Locale;
 import java.util.Scanner;
 
