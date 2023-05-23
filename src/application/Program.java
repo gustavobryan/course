@@ -15,7 +15,7 @@ public class Program {
 		Triangle x, y;
 		x = new Triangle();
 		y = new Triangle();
-		
+
 		System.out.println("Enter the measures of triangle X: ");
 		x.a = sc.nextDouble();
 		x.b = sc.nextDouble();
@@ -27,9 +27,9 @@ public class Program {
 		y.c = sc.nextDouble();
 
 		double areaX = x.area();
-				
-		double areaY = y.area(); 
-				
+
+		double areaY = y.area();
+
 		System.out.printf("Triangle X area: %.4f%n", areaX);
 		System.out.printf("Triangle Y area: %.4f%n", areaY);
 
